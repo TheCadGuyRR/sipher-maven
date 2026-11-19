@@ -1,7 +1,7 @@
 # revenant-sipher
 Top-Down Reverse-Horror Tactical Extractor
 
-# SIPHER: REVENANT MAVEN (Working Title)
+# IRONSIPHER: MAVEN (Working Title)
 
 > **Top-down reverse-horror stealth & destructible-terrain action.**  
 > *Dune* tension meets *Vodobanka* tactical cues, *Liero* wall destruction, and *Carrion* predator horror.
@@ -38,12 +38,12 @@ Base silhouette: **Nautiloid** with a **White shell** and **Orange tentacles**. 
 * **Stage 2:** Mid-tier growth progression (bridge toward heavy shell tiers).
 * **Stage 3:** **Black shell** with **Orange tentacles**.
 * **Stage 4:** Consuming a soldier lets you absorb a **faction trait**.
-* **Stage 5:** Consuming a **Flamethrower trooper** unlocks **fire projection** plus a **random trait**.
+* **Stage 5:** Consuming a **Flamethrower trooper** unlocks **fire projection** plus a second random **faction trait**.
 
 ### Faction Traits (Stage 4+ Absorption)
 * **Ghoulkins:** Short-circuit lights across the building for **30 seconds**.
 * **Gastro Cult:** Attacks apply **poison that mutates into a contagion/virus**—surviving soldiers can accidentally infect their own squadmates.
-* **Imp Union:** Transform into a **crab-like form for 15 seconds** that takes **zero bullet damage**.
+* **Imp Union:** Transform into a **crab-like form for 15 seconds** that takes **zero bullet damage** then return to normal.
 
 ---
 
@@ -51,12 +51,14 @@ Base silhouette: **Nautiloid** with a **White shell** and **Orange tentacles**. 
 
 ### Minimalist Top-Down Rig
 * **Soldier Body:** Black circle with a small **colored square** indicating faction/race (**Ghoulkins**, **Gastro Cult**, **Imp Union**), plus **two circles in front** representing arms holding their weapon.
-* **Destructible Environment:** Walls can be blasted/pierced open; **every room has a lightbulb** that can be shot out to darken the room and aid stealth.
+* **Destructible Environment:** Walls can be blasted/pierced open; **every room has a lightbulb** that can be shot out or attacked with tentacles to darken the room and aid stealth.
+* **Psychological Fear:** When hit, Soldiers have a chance of dropping weapons causing them to either flee or seek shelter
 
 ### Enemy Archetypes
-* **Tier 1 (Pistol):** **5-shot magazine** with a visible reload icon; carries a **flashlight cone**; can deploy **motion detectors** (**10-second install** with an installation progress icon).
+* **Tier 1 (Pistol):** **5-shot magazine** with a visible reload icon; carries a **flashlight cone**; can deploy destroyable **motion detectors** (**10-second install** with an installation progress icon).
 * **Tier 2 (Shotgun):** **8-shell capacity** with a **longer reload** than pistols and a visible reload icon; carries a **flashlight cone** and **grenades**.
 * **Tier 3 (Flamethrower):** Fires continuously for **10 seconds** before stopping for a **longer reload**.
+* **Tier X (Miniboss):** A larger soldier piloting a mech that has a gattling gun, Very rare chance of spawning, Larger flashlight cone
 * **Doctor / Lab Tech (Sandbox):** Defenseless non-combatants that flee when threatened.
 
 ---
@@ -69,7 +71,7 @@ Base silhouette: **Nautiloid** with a **White shell** and **Orange tentacles**. 
 | `Left Click` (Click & Drag) | **Thrust single tentacle** — fast mobility or piercing bleed attack; drag to increase range |
 | `Right Click` (Click & Drag) | **Pierce (4 tentacles)** — heavy forward strike to destroy walls or kill soldiers; drag to increase range |
 | `R` | **Pulse** — reveals every soldier inside the building for **5 seconds**, then fades |
-| `E` | Enter / exit **vents** |
+| `E` | Enter / exit **vents** — Each room has a vent that allows you to move from room to room without detection |
 | `X` | **Possess** — project a tentacle into a dead soldier's body and control it; if the body is shot apart, return to your main body |
 
 ---
